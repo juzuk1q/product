@@ -1,0 +1,37 @@
+site_name: Компьютер и здоровье
+site_url: https://juzuk1q.github.io/
+
+extra_css:
+  - assets/stylesheets/custom.css
+
+theme:
+  name: material
+  custom_dir: material/overrides
+  features:
+    - navigation.tabs
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
+    
+plugins:
+  - search:
+      enabled: false
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/tempchoice
+    - icon: fontawesome/brands/github
+      link: https://github.com/juzuk1q
+
+nav:
+  - Начальная страница: index.md
+  - Разделы:
+    - Эргономика и физическое здоровье: explore/ergonomics.md
+    - Медицинские аспекты: explore/medicine.md
+    - Образовательные возможности: explore/education.md
+    - Коммуникация в цифровой среде: explore/communication.md
+    - Кибербезопасность: explore/security.md
+    - Цифровой баланс: explore/digitalbalance.md
+    - Дополнительные ресурсы: explore/additionalres.md
